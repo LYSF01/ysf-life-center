@@ -1,0 +1,142 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Hydrafacial Solüsyon Seti",
+      "category": "SKIN_CARE",
+      "stock": 10,
+      "costPrice": 2000,
+      "salePrice": 5000,
+      "unit": "set",
+      "wasteThreshold": 1,
+      "lastAuditDate": ""
+    },
+    {
+      "id": "p2",
+      "name": "Protez Tırnak Jeli Professional",
+      "category": "NAIL",
+      "stock": 25,
+      "costPrice": 400,
+      "salePrice": 1500,
+      "unit": "adet",
+      "wasteThreshold": 2,
+      "lastAuditDate": ""
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "name": "Hydrafacial Cilt Bakımı",
+      "category": "SKIN_CARE",
+      "duration": 60,
+      "price": 2500,
+      "commissionRate": 15,
+      "overheadCost": 300
+    },
+    {
+      "id": "s2",
+      "name": "G5 Masajı (Tek Seans)",
+      "category": "SKIN_CARE",
+      "duration": 45,
+      "price": 1200,
+      "commissionRate": 10,
+      "overheadCost": 100
+    },
+    {
+      "id": "s3",
+      "name": "Protez Tırnak (Yeni Set)",
+      "category": "NAIL",
+      "duration": 120,
+      "price": 1800,
+      "commissionRate": 20,
+      "overheadCost": 150
+    },
+    {
+      "id": "s4",
+      "name": "Nail Art (Tırnak Süsleme)",
+      "category": "NAIL",
+      "duration": 30,
+      "price": 400,
+      "commissionRate": 25,
+      "overheadCost": 20
+    },
+    {
+      "id": "s5",
+      "name": "Diyetisyen İlk Muayene",
+      "category": "DIET",
+      "duration": 45,
+      "price": 1500,
+      "commissionRate": 30,
+      "overheadCost": 50
+    },
+    {
+      "id": "s6",
+      "name": "Lazer Epilasyon (Tüm Vücut)",
+      "category": "SKIN_CARE",
+      "duration": 90,
+      "price": 4500,
+      "commissionRate": 10,
+      "overheadCost": 600
+    }
+  ],
+  "customers": [
+    {
+      "id": "c1",
+      "fullName": "Ayşe Hanım (Örnek)",
+      "phone": "05321112233",
+      "tcNo": "12345678901",
+      "tier": "GOLD",
+      "walletBalance": 0,
+      "totalSpent": 12000,
+      "points": 1200,
+      "packages": [
+        {
+          "id": "pkg1",
+          "serviceId": "s2",
+          "totalSessions": 10,
+          "remainingSessions": 7,
+          "purchaseDate": "2024-05-01"
+        }
+      ],
+      "bodyAnalysis": {
+        "weight": "65",
+        "fatRatio": "24",
+        "targetWeight": "58",
+        "lastUpdate": "2024-05-15"
+      },
+      "preferences": {
+        "music": "Slow",
+        "drink": "Yeşil Çay",
+        "notes": "G5 işleminde hassas."
+      },
+      "history": [
+        "2024-05-01 - 10 Seans G5 Paketi Satın Alındı"
+      ]
+    }
+  ],
+  "staff": [
+    {
+      "id": "st1",
+      "name": "Yusuf Bey",
+      "role": "Yönetici",
+      "totalPrim": 0,
+      "salesCount": 0
+    },
+    {
+      "id": "st2",
+      "name": "Uzman Ayşe",
+      "role": "Estetisyen",
+      "totalPrim": 0,
+      "salesCount": 0
+    },
+    {
+      "id": "st3",
+      "name": "Dyt. Merve",
+      "role": "Diyetisyen",
+      "totalPrim": 0,
+      "salesCount": 0
+    }
+  ],
+  "appointments": [],
+  "transactions": []
+}
